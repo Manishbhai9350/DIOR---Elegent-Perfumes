@@ -10,6 +10,7 @@ const App = () => {
       <Canvas
         gl={{ antialias: true, toneMapping: ACESFilmicToneMapping, toneMappingExposure:.9  }}
       >
+        <color attach={'background'} args={[0x060606]} />
         <Stats />
         <Scene />
         <Environment preset="studio" />
