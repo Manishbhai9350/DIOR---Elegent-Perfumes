@@ -13,7 +13,7 @@ const App = () => {
         <color attach={'background'} args={[0x060606]} />
         <Stats />
         <Scene />
-        <Environment preset="studio" />
+        {/* <Environment preset="" /> */}
         <OrbitControls makeDefault />
       </Canvas>
     </main>
